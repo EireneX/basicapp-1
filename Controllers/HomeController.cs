@@ -15,7 +15,7 @@ namespace BasicApp.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "You are currently visiting the Basic App Website.";
 
             return View();
         }
